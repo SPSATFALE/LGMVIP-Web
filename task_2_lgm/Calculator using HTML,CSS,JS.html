@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ 
+<head>  
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+  <title>Calculator using HTML, CSS and JavaScript</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style2.css">
+</head>
+ 
+<body style="background-color: azure;" >
+ <h1 style="background-color: rgb(30, 229, 219);"><center>CALCULATOR  FOR NORMAL CALCULATIONS </h1></center>
+<table class="calculator" >
+  <tr>
+    <td colspan="3"> <input class="display-box" type="text" id="result" disabled /> </td>
+ 
+    <!-- clearScreen() function clears all the values -->
+    <td> <input type="button" value="C" onclick="clearScreen()" id="btn" /> </td>
+  </tr>
+  <tr>
+    <!-- display() function displays the value of clicked button -->
+    <td> <input type="button" value="1" onclick="display('1')" /> </td>
+    <td> <input type="button" value="2" onclick="display('2')" /> </td>
+    <td> <input type="button" value="3" onclick="display('3')" /> </td>
+    <td> <input type="button" value="/" onclick="display('/')" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="4" onclick="display('4')" /> </td>
+    <td> <input type="button" value="5" onclick="display('5')" /> </td>
+    <td> <input type="button" value="6" onclick="display('6')" /> </td>
+    <td> <input type="button" value="-" onclick="display('-')" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="7" onclick="display('7')" /> </td>
+    <td> <input type="button" value="8" onclick="display('8')" /> </td>
+    <td> <input type="button" value="9" onclick="display('9')" /> </td>
+    <td> <input type="button" value="+" onclick="display('+')" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="." onclick="display('.')" /> </td>
+    <td> <input type="button" value="0" onclick="display('0')" /> </td>
+ 
+    <!-- calculate() function evaluates the mathematical expression -->
+    <td> <input type="button" value="=" onclick="calculate()" id="btn" /> </td>
+    <td> <input type="button" value="*" onclick="display('*')" /> </td>
+  </tr>
+</table>
+ 
+<script type="text/javascript" src="index.js"></script>
+ 
+<footer class="footer">
+  <div class="social-media">
+      <a class="footer-desc">This project is done by <strong>Sarwesh Satfale</strong> as task1 of Let's Grow More</a>
+
+      <!-- instagram -->
+      <a class="link" href="https://www.instagram.com/s.p.satfale/" target="_blank" rel="noopener noreferrer">
+        <img class="social-icon" src="images/instagram.svg" alt="instagram" /></a>
+      <!-- linkedin -->
+      <a class="link" href="https://www.linkedin.com/in/sarwesh-satfale-057bab157/" target="_blank" rel="noopener noreferrer">
+        <img class="social-icon" src="images/linkedin.svg" alt="linkedin" /></a>
+      <!-- gmail -->
+      <a class="link" href="google_plus: sarweshsatfale@gmail.com" target="_blank" rel="noopener noreferrer">
+        <img class="social-icon" src="images/gmail.svg" alt="gmail" /></a>
+      <!-- github -->
+      <a class="link" href="https://github.com/SPSATFALE?tab=repositories" target="_blank" rel="noopener noreferrer">
+        <img class="social-icon" src="images/github.svg" alt="Github" /></a>
+      
+  </div>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+/* Animations */
+@keyframes fadeAndScale {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+body{
+    position:relative;
+    min-height:44rem;
+    
+}
+/*header , Footer*/
+.navbar-box, .footer-box {
+    background-color: #b3abd2;
+    border: 2px solid rgb(37, 35, 35);
+    color: white;
+    text-align: center;
+}
+.container{
+    display:contents ;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration:none;
+    padding: 100px;
+}
+/*Box Form*/
+.box-of-form {
+    margin: 50px 40px;
+}
+.form-control {
+    max-width: 250px;
+}
+.btn {
+    margin: 0px 10px 0px 10px;
+    padding: 10px 20px;
+    border-radius: 6%;   
+}
+.btn:hover{
+    transition: all 0.5s ease-out;
+    background-color: #b3abd2;
+    color: white;
+}
+/*Vertical Line*/
+.vl {
+    border-left: 2px solid #b3abd2;
+    position: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+/*Box Data*/
+.data-box{
+    padding:10px 40px 40px 40px;
+}
+.data-header{
+    align-items:baseline;
+    margin-bottom:40px;
+    text-align:center;
+}
+.table-head-data {
+    background-color: #b3abd2;
+    color: white;
+}
+#student-table{
+    border: 1px solid black;
+}
+.student-table-newrow-dark{
+    animation: fadeAndScale 2s;
+    background-color: #d6efc7;
+}
+.student-table-newrow-light{
+    animation: fadeAndScale 2s;
+    background-color: whitesmoke;
+}
+.student-image-container{
+    object-fit: contain;
+}
+
+.student-data-tag
+{
+    margin: 0px 0px 0px 0px;
+    color: black;
+}
+.student-data-link-tag{
+    margin: 0px 0px 0px 0px;
+    color: blue;
+    text-decoration: underline;
+}
+.name-bold{
+    font-weight: 600;
+}
+.enroll-student-image{
+    width:100px;
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+.social-icon {
+    width: 4.5rem;
+    height: 4rem;
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.footer {
+ 
+    border: 50px;
+  }
+.footer-desc {
+    color: rgb(0, 0, 0);
+    font-size: 0.9em;
+}
